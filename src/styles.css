@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+.container {  
+  width: 90%;    
+  margin: 0 auto;  
+  padding: 15px;  
+}
+
+.table li {
+  display: flex;
+  align-items: center;
+}
+
+.table  li + li {
+  margin-top: 15px;
+}
+
+.btn {
+  background: #ccc;
+  color: #555;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn--red{
+  margin: 0 15px;
+  background: #ca4949;
+  color: #fff;
+}
+.btn--purple{
+  background: #7159c1;
+  color: #fff;
+}
